@@ -6,13 +6,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="mx.com.webmaps.md_ejercicio22.MainActivity">
 
-    <android.support.v7.widget.AppCompatRadioButton
+    <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/radioButton1_id"
-        android:layout_margin="16dp"
-        android:text="@string/radiobutton_1"
-        app:theme="@style/RadioButtonTheme"
-        android:checked="true"/>
+        android:id="@+id/radioGroup_id">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1_id"
+            android:layout_margin="16dp"
+            android:text="@string/radiobutton_1"
+            app:theme="@style/RadioButtonTheme"
+            android:checked="false"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2_id"
+            android:layout_margin="16dp"
+            android:text="@string/radiiobutton_2"
+            app:theme="@style/RadioButtonTheme"
+            android:checked="true"/>
+
+
+    </RadioGroup>
 
 </RelativeLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MD_22_Rabiobutton</string>
     <string name="radiobutton_1">RadioButton 1</string>
+    <string name="radiiobutton_2">RadiioButton 2</string>
 </resources>
